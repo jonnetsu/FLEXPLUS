@@ -1,0 +1,22 @@
+name: Fix Start Script Permissions
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  fix-permissions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Make start.sh executable
+        run: chmod +x start.sh
+
+      - name: Commit permission fix
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git commit -am "Make start.sh executable"
+          git push
