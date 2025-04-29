@@ -1,0 +1,39 @@
+ /** Sliding banners starts here**/
+ #slideshow {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+  }
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+  }
+  .slide.active {
+    display: block;
+  }
+  .dots {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #06b32a;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  .dot.active {
+    background-color: #000000;
+  }
+  

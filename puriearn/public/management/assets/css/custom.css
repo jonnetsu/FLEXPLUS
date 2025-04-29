@@ -1,0 +1,167 @@
+.add-to-cart-button{
+    cursor: pointer;
+    padding:8px !important;
+}
+.table-wrapper-top{
+   padding-left: 0px;
+}
+.table-wrapper{
+    width:100%;
+}
+.padded-card{
+    padding:50px !important;
+}
+
+.logo{
+    width:50px !important;
+}
+.app-brand-text{
+    text-transform: uppercase !important;
+}
+.center-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:200px;
+}
+.update-info{
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+.dashboard-icon{
+  color:#40196d;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+/** Alert boxes here **/
+.close {
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .alert-custom {
+    background: none;
+    display: block;
+    position: fixed;
+    top: 10px !important;
+    right: 0px;
+    text-align: center;
+    min-width: 20%;
+    margin-right: 1.5%;
+    z-index: 99999;
+    height:55px;
+    transform: translateX(0px);
+
+  }  
+  .alert-danger {
+    background: #ff0000 !important;
+    padding: 0;
+    margin-top: 0;
+    color: white !important;
+  }
+  
+  .alert-success {
+    background: green;
+    color: white;
+  }
+  .empty-cart {
+    width: 70vw !important;
+    background: none !important;
+  }
+  .empty-data {
+    text-align: center;
+    color: #ff0000;
+    margin-top: 50px;
+  }
+  .clearfix {
+    margin-bottom: 200px;
+    color: #000000;
+  }
+  
+
+  /** Modal Dialog Starts Here**/
+.modalDialog {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+   }
+   .modalDialog:target {
+   opacity:1;
+  pointer-events: auto;
+  }
+  .modalDialog > div {
+  width: 45%;
+  position: relative;
+  margin: 10% auto;
+  margin-top: 5%;
+  padding: 5px 20px 13px 20px;
+  border-radius: 5px;
+  background: #fff;
+
+  }
+  .close-button {
+  right: 0; 
+  background: #ff0000 !important;
+  color:#fff !important;
+  }
+.modal-wrapper{
+  background: #fff !important;
+}   
+  .modal-wrapper p{
+    padding-bottom: 0px;
+    padding-top: 20px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+  }
+  .deposit-details-wrapper{
+    margin-bottom: 20px;
+    font-size: 15px;
+  
+  }
+  .deposit-details-wrapper span{
+    font-weight: 600;
+  }
+  .modal-bottom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 15px;
+  }
+.withdrawal-deposit-wrapper{
+  width:30%;
+  margin-top:30px;
+}
+.searchresult{
+  background:#FFFFFF;
+  border:none;
+  z-index: 98;
+  border-radius:1px 1px 4px 4px;
+  padding:8px;
+  height:auto;
+  box-shadow: 0px 0.5px 3px  0.5px #ccc;
+  margin-top: 30px;
+  }
+  .search-text{
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-text p{
+  margin-bottom: 10px;
+}
